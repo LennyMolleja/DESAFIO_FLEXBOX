@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+}
+
+.containerPrincipal{
+    display: flex;
+}
+
+.container_fluid{
+    flex-direction: column;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(121, 116, 116);
+}
+.activo{
+    font-size: 10px;
+}
+
+.list-contac{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.nombre{
+    margin-top: 7px;
+}
+
+.imgMaria{
+    margin: 6px 0px 0px 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+hr{
+    color: rgb(230, 219, 219);
+}
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color: white;
+    margin: 30px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(150, 9, 226);
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+.contactos{
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.listImg, .fa-solid{
+    margin: 5px;
+}
+
+h5{
+    margin-top: 10px;
+}
+
+.container_fluid2{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 226, 234);
+}
+.icon{
+    margin: 15px 5px 5px 30px;
+}
+
+.imagenesContactos{
+    margin-right: 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.list{
+    list-style: none;
+    padding: 5px;
+}
+
+.textGeneral{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(165, 146, 182);
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+}
